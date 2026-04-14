@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio — Sinda Amara</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav>
+    <span class="nav-logo">Sinda Amara<em>.</em></span>
+    <ul class="nav-links">
+      <li><a href="#projets">Projets</a></li>
+      <li><a href="#competences">Compétences</a></li>
+      <li><a href="#apropos">À propos</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><a href="moi.html">Moi</a></li>
+    </ul>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-text">
+      <p class="hero-eyebrow">Développeuse — Full Stack</p>
+      <h1 class="hero-name">Bonjour,<br>je suis <em>Sinda</em></h1>
+      <p class="hero-title">Développeuse Web · Aix En Provence, France</p>
+      <p class="hero-desc">Je conçois et développe des expériences numériques soignées du backend au frontend avec une attention particulière au détail et à l'élégance du code.</p>
+      <div class="hero-cta">
+        <button class="btn-primary" onclick="document.getElementById('projets').scrollIntoView({behavior:'smooth'})">Voir mes projets</button>
+        <button class="btn-ghost" onclick="document.getElementById('contact').scrollIntoView({behavior:'smooth'})">Me contacter</button>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="code-card">
+        <div class="code-card-header">
+          <div class="dot dot-r"></div>
+          <div class="dot dot-y"></div>
+          <div class="dot dot-g"></div>
+        </div>
+        <div class="code-line"><span class="kw">const</span> <span class="fn">dev</span> = {</div>
+        <div class="code-line">&nbsp;&nbsp;name: <span class="str">"Sinda"</span>,</div>
+        <div class="code-line">&nbsp;&nbsp;stack: <span class="str">["PHP", "Python", "SQL", "C++", "Java", "React"]</span>,</div>
+        <div class="code-line">&nbsp;&nbsp;passion: <span class="str">"crafting with care"</span>,</div>
+        <div class="code-line">&nbsp;&nbsp;available: <span class="kw">true</span></div>
+        <div class="code-line">}</div>
+      </div>
+      <div class="stat-row">
+        <div class="stat-card">
+          <span class="stat-number">12+</span>
+          <span class="stat-label">Projets</span>
+        </div>
+        <div class="stat-card">
+          <span class="stat-number">2 ans</span>
+          <span class="stat-label">Expérience</span>
+        </div>
+        <div class="stat-card">
+          <span class="stat-number">∞</span>
+          <span class="stat-label">Curiosité</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJETS -->
+  <section class="section section-cream" id="projets">
+    <div class="section-header">
+      <span class="section-num">01</span>
+      <h2 class="section-title">Projets sélectionnés</h2>
+    </div>
+    <div class="projects-grid">
+
+      <div class="project-card">
+        <div class="project-thumb thumb-1">~/</div>
+        <div class="project-info">
+          <p class="project-tag">Full Stack · PHP · SQL</p>
+          <p class="project-name">Application de gestion des relations internationales</p>
+          <p class="project-desc">Une application développée pour Aix-Marseille Université avec des interfaces distinctes pour les secrétaires et les étudiants. Suivi de dossier, gestion des candidatures et import Excel.</p>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-thumb thumb-2">&lt;/&gt;</div>
+        <div class="project-info">
+          <p class="project-tag">Python</p>
+          <p class="project-name">PageRank</p>
+          <p class="project-desc">Algorithme de type PageRank modélisant le web sous forme de graphe pour classer des pages web en fonction de leur importance relative via des méthodes itératives.</p>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-thumb thumb-3">{ }</div>
+        <div class="project-info">
+          <p class="project-tag">React Native</p>
+          <p class="project-name">InstaTenue</p>
+          <p class="project-desc">Application mobile de garde-robe en ligne proposant des tenues personnalisées selon le style et les saisons, avec référence, marque et prix de chaque article.</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- COMPÉTENCES -->
+  <section class="section section-mint" id="competences">
+    <div class="section-header">
+      <span class="section-num">02</span>
+      <h2 class="section-title">Compétences</h2>
+    </div>
+    <div class="skills-grid">
+      <div class="skill-item">
+        <p class="skill-name">React</p>
+        <div class="skill-bar-bg"><div class="skill-bar" style="width:70%"></div></div>
+        <p class="skill-level">Intermédiaire</p>
+      </div>
+      <div class="skill-item">
+        <p class="skill-name">HTML / CSS / JavaScript</p>
+        <div class="skill-bar-bg"><div class="skill-bar" style="width:85%"></div></div>
+        <p class="skill-level">Avancé</p>
+      </div>
+      <div class="skill-item">
+        <p class="skill-name">Python</p>
+        <div class="skill-bar-bg"><div class="skill-bar" style="width:80%"></div></div>
+        <p class="skill-level">Intermédiaire</p>
+      </div>
+      <div class="skill-item">
+        <p class="skill-name">PHP</p>
+        <div class="skill-bar-bg"><div class="skill-bar" style="width:70%"></div></div>
+        <p class="skill-level">Intermédiaire</p>
+      </div>
+      <div class="skill-item">
+        <p class="skill-name">PostgreSQL / SQL</p>
+        <div class="skill-bar-bg"><div class="skill-bar" style="width:70%"></div></div>
+        <p class="skill-level">Intermédiaire</p>
+      </div>
+      <div class="skill-item">
+        <p class="skill-name">Java</p>
+        <div class="skill-bar-bg"><div class="skill-bar" style="width:60%"></div></div>
+        <p class="skill-level">Intermédiaire</p>
+      </div>
+      <div class="skill-item">
+        <p class="skill-name">Git / GitHub</p>
+        <div class="skill-bar-bg"><div class="skill-bar" style="width:95%"></div></div>
+        <p class="skill-level">Maîtrisé</p>
+      </div>
+      <div class="skill-item">
+        <p class="skill-name">Architecture Propre</p>
+        <div class="skill-bar-bg"><div class="skill-bar" style="width:90%"></div></div>
+        <p class="skill-level">Avancé</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- À PROPOS -->
+  <section class="section section-blush" id="apropos">
+    <div class="section-header">
+      <span class="section-num">03</span>
+      <h2 class="section-title">À propos</h2>
+    </div>
+    <div class="about-grid">
+      <div>
+        <p class="about-quote">"Je crois qu'un bon code, c'est comme un bon design — ça se voit quand c'est absent."</p>
+        <p class="about-text">Développeuse basée à Aix En Provence, je m'épanouis dans les projets qui allient rigueur technique et sens du détail. Curieuse, autonome, et passionnée par les interfaces qui ont du caractère.</p>
+      </div>
+      <div class="info-cards">
+        <div class="info-card">
+          <p class="info-card-label">Formation</p>
+          <p class="info-card-title">2ème année de BUT Informatique</p>
+          <p class="info-card-sub">IUT d'Aix-Marseille Université · Site Gaston Berger</p>
+        </div>
+        <div class="info-card">
+          <p class="info-card-label">Expérience</p>
+          <p class="info-card-title">Stage</p>
+          <p class="info-card-sub">POP E</p>
+        </div>
+        <div class="info-card">
+          <p class="info-card-label">Langues</p>
+          <p class="info-card-title">Arabe · Français · Anglais</p>
+          <p class="info-card-sub">Natif · C1 · Professionnel</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact-section" id="contact">
+    <p class="contact-eyebrow">Contact</p>
+    <h2 class="contact-title">Travaillons<br><em>ensemble</em></h2>    
+    <p class="contact-sub">Je cherche une alternance en développement d'applications et de logiciels</p>
+    <p class="contact-sub">Disponible pour des missions freelance </p>
+    <div class="contact-links">
+      <a class="contact-link" href="mailto:votre@email.com">sinda.amara@etu.univ-amu.fr</a>
+      <a class="contact-link" href="https://www.linkedin.com/in/sinda-amara-1ab328324/" target="_blank">LinkedIn</a>
+      <a class="contact-link" href="https://github.com/sindaAmara" target="_blank">GitHub</a>
+      <a class="contact-link" href="cv.pdf" target="_blank">Télécharger CV</a>
+    </div>
+  </section>
+
+  <footer>
+    <span>Sinda Amara · Portfolio 2026</span>
+    <span>Fait avec soin à Aix En Provence ✦</span>
+  </footer>
+
+</body>
+</html>
